@@ -1,6 +1,8 @@
 .clothing-content {
-    margin-top: 10vh;
+    margin-top: 56px;
     width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
 }
 
 .clothing-grid {

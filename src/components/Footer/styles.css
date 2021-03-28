@@ -1,4 +1,28 @@
 footer{
-    background-color: white;
+    background-color: black;
+    color: #bbb;
     text-align: center;
+    padding: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+    margin-left: 10px;
+}
+footer .footer-icons svg{
+    font-size: 40px;
+    margin: 0 8px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+footer .footer-icons svg:hover{
+    cursor: pointer;
+    color: #fff;
 }
