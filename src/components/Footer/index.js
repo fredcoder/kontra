@@ -5,9 +5,9 @@ class Footer extends Component {
 
     render() {
         
-        return (<div>
-            
-        </div>)
+        return (<footer>
+            <p>KONTRA © {new Date().getFullYear()}</p>
+        </footer>)
     }
 }
 

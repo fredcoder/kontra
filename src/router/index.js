@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Home from '../containers/Home';
-//import Shop from '../containers/Shop';
+import Clothing from '../containers/Clothing';
 import Contact from '../containers/Contact';
 
 class Router extends Component {
@@ -26,6 +26,13 @@ class Router extends Component {
                         <React.Fragment>
                             <Header />
                             <Home {...props}/>
+                            <Footer />
+                        </React.Fragment>
+                    } />
+                    <Route exact path="/Clothing" render={props =>
+                        <React.Fragment>
+                            <Header />
+                            <Clothing {...props}/>
                             <Footer />
                         </React.Fragment>
                     } />
