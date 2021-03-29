@@ -12,7 +12,13 @@ class Header extends Component {
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">KONTRA*</a>
 
-                    <span className="header-search-icon">
+                    <span className="header-search-icon collapsed"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#searchCollapse"
+                        aria-controls="navbarCollapse"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
                         <SearchIcon />
                     </span>
                     <span className="header-shopping-cart-icon">
@@ -35,6 +41,12 @@ class Header extends Component {
                         <span></span>
                         <span></span>
                     </div>
+                    <div className="navbar-collapse collapse" id="searchCollapse" >
+                        <form className="d-flex">
+                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button className="btn btn-outline-info" type="submit">Search</button>
+                        </form>
+                    </div>
                     <div className="navbar-collapse collapse" id="navbarCollapse" >
                         <ul className="navbar-nav me-auto mb-2 mb-md-0">
                             <li className="nav-item">
@@ -47,12 +59,7 @@ class Header extends Component {
                                 <a className="nav-link" href="/Contact">Contact</a>
                             </li>
                         </ul>
-                        <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-info" type="submit">Search</button>
-                        </form>
                     </div>
-
                 </div>
             </nav>
         </header >

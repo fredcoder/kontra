@@ -9,9 +9,10 @@
     flex-grow: 1;
 }
 
-.header-shopping-cart-icon, .header-search-icon {
+.header-shopping-cart-icon svg, .header-search-icon svg{
     color: #ddd;
-    margin-right: 10px;
+    font-size: 29px;
+    margin-right: 15px;
     cursor: pointer;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
@@ -34,7 +35,7 @@
     width: 100%;
 
     opacity: 1;
-    background-color: #fff;
+    background-color: #ddd;
     border-radius: 2px;
     pointer-events: none;
 
@@ -77,5 +78,14 @@
     }
     .header-search-icon {
         display: none;
+    }
+
+    #hamburguer-menu{
+        display: none;
+    }
+
+    #searchCollapse{
+        order: 3;
+        flex-grow: 0;
     }
 }
