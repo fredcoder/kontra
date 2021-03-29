@@ -6,8 +6,10 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Home from '../containers/Home';
-import Clothing from '../containers/Clothing';
-import Contact from '../containers/Contact';
+import Women from '../containers/Women';
+import Men from '../containers/Men';
+import Kids from '../containers/Kids';
+import Accessories from '../containers/Accessories';
 
 class Router extends Component {
 
@@ -29,17 +31,31 @@ class Router extends Component {
                             <Footer />
                         </React.Fragment>
                     } />
-                    <Route exact path="/Clothing" render={props =>
+                    <Route exact path="/Women" render={props =>
                         <React.Fragment>
                             <Header />
-                            <Clothing {...props}/>
+                            <Women {...props}/>
                             <Footer />
                         </React.Fragment>
                     } />
-                    <Route exact path="/Contact" render={props =>
+                    <Route exact path="/Men" render={props =>
                         <React.Fragment>
                             <Header />
-                            <Contact {...props}/>
+                            <Men {...props}/>
+                            <Footer />
+                        </React.Fragment>
+                    } />
+                    <Route exact path="/Kids" render={props =>
+                        <React.Fragment>
+                            <Header />
+                            <Kids {...props}/>
+                            <Footer />
+                        </React.Fragment>
+                    } />
+                    <Route exact path="/Accessories" render={props =>
+                        <React.Fragment>
+                            <Header />
+                            <Accessories {...props}/>
                             <Footer />
                         </React.Fragment>
                     } />

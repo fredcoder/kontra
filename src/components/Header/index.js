@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import LocalMallRoundedIcon from '@material-ui/icons/LocalMallRounded';
 import SearchIcon from '@material-ui/icons/Search';
 import './styles.css';
 
@@ -22,7 +23,7 @@ class Header extends Component {
                         <SearchIcon />
                     </span>
                     <span className="header-shopping-cart-icon">
-                        <ShoppingCartIcon />
+                        <LocalMallRoundedIcon />
                     </span>
                     {/* <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -53,10 +54,16 @@ class Header extends Component {
                                 <a className="nav-link active" aria-current="page" href="/">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/clothing">Clothing</a>
+                                <a className="nav-link" href="/Women">Women</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/Contact">Contact</a>
+                                <a className="nav-link" href="/Men">Men</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/Kids">Kids</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/Accessories">Accessories</a>
                             </li>
                         </ul>
                     </div>

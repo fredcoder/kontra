@@ -23,6 +23,7 @@
 #hamburguer-menu{
     width: 24px;
     height: 18px;
+    margin: 0 5px;
 
     position: relative;
     cursor: pointer;
