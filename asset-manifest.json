@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kontra/static/css/main.3a2586fe.chunk.css",
+    "main.js": "/kontra/static/js/main.7ebf44b5.chunk.js",
+    "main.js.map": "/kontra/static/js/main.7ebf44b5.chunk.js.map",
+    "runtime-main.js": "/kontra/static/js/runtime-main.c1c0b187.js",
+    "runtime-main.js.map": "/kontra/static/js/runtime-main.c1c0b187.js.map",
+    "static/js/2.1371cf3c.chunk.js": "/kontra/static/js/2.1371cf3c.chunk.js",
+    "static/js/2.1371cf3c.chunk.js.map": "/kontra/static/js/2.1371cf3c.chunk.js.map",
+    "static/js/3.0631371f.chunk.js": "/kontra/static/js/3.0631371f.chunk.js",
+    "static/js/3.0631371f.chunk.js.map": "/kontra/static/js/3.0631371f.chunk.js.map",
+    "index.html": "/kontra/index.html",
+    "static/css/main.3a2586fe.chunk.css.map": "/kontra/static/css/main.3a2586fe.chunk.css.map",
+    "static/js/2.1371cf3c.chunk.js.LICENSE.txt": "/kontra/static/js/2.1371cf3c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1c0b187.js",
+    "static/js/2.1371cf3c.chunk.js",
+    "static/css/main.3a2586fe.chunk.css",
+    "static/js/main.7ebf44b5.chunk.js"
+  ]
+}
