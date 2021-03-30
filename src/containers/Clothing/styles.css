@@ -18,7 +18,7 @@
     /* justify-content: space-evenly;
     align-content: space-evenly; */
     align-items: center;
-    overflow: scroll;
+    overflow: overlay;
     scroll-behavior: smooth;
     margin: 0;
 }
