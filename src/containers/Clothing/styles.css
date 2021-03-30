@@ -20,7 +20,7 @@
     align-items: center;
     overflow: scroll;
     scroll-behavior: smooth;
-    padding: 15px 0;
+    margin: 0;
 }
 
 .clothing-item {
@@ -30,14 +30,24 @@
     flex-basis: 60%;
     text-align: left;
     padding: 10px;
-    margin: 10px;
+    margin: 30px 10px;
     box-shadow: 0 0 10px rgba(40, 44, 52, 0.2);
     border-radius: 10px;
     transition: .4s ease;
 }
+
+.clothing-item {
+    box-sizing: border-box;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 240px;
+    text-align: left;
+    cursor: pointer;
+    transition: .4s ease;
+}
 .clothing-item:hover {
     flex-basis: 250px;
-    margin: 5px;     
+    margin: 15px 5px;
     transition: .4s ease;       
     box-shadow: 0 0 30px rgba(40, 44, 52, 0.2);
     transition: .4s ease;
@@ -88,13 +98,7 @@
 
 @media (min-width: 768px) {
 
-    .clothing-item {
-        box-sizing: border-box;
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: 240px;
-        text-align: left;
-        cursor: pointer;
-        transition: .4s ease;
-    }
+    
+
+    
 }
